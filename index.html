@@ -11,6 +11,22 @@
         rel="stylesheet">
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+
+    <style>
+        .rotateMe {
+            animation: rotation 5s infinite linear;
+        }
+
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(359deg);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -19,7 +35,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="index.html">
-                    <span>S</span>prnva<i class="fas fa-hands-wash"></i>
+                    <span>S</span>prnva
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
@@ -42,11 +58,6 @@
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
-                    <form action="#error" method="GET" class="d-flex search-header ms-lg-2">
-                        <input class="form-control" type="search" placeholder="Enter Keyword..." aria-label="Search"
-                            required>
-                        <button class="btn btn-style" type="submit"><i class="fas fa-search"></i></button>
-                    </form>
                 </div>
                 <!-- toggle switch for light and dark theme -->
                 <div class="cont-ser-position">
@@ -78,8 +89,10 @@
             <div class="main-content-top">
                 <div class="container">
                     <div class="main-content">
+                        <img class="rotateMe" src="assets/images/sprnva-logo.png" alt="sprnva-logo" style="width: 220px; height: 220px;">
                         <h4>SPRNVA</h4>
-                        <p class="mt-3">Sprnva will provide you experience and expand your vision for a better understanding of the basics. We'll help you take your first steps as a web developer or give you a boost as you take your expertise to the next level. Featuring Model-view-controller software design pattern, debugging, secure and organized routing, expressive database builder and more.</p>
+                        <p class="mt-3">Simplified small scale PHP Framework for Web Artisans</p>
+                        <p>/supernova/ is a web application framework best for students and newbie artisans. Focus on creating something amazing without sweating the codebase.</p>
                     </div>
                 </div>
             </div>
@@ -93,26 +106,23 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="area-box">
-                        <i class="fas fa-stopwatch-20"></i>
-                        <h4><a href="about.html" class="title-head">Save Time and Money</a></h4>
-                        <p class="">Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
-                            sed et dolor amet.</p>
+                        <i class="fa fa-map-signs "></i>
+                        <h4><a href="about.html" class="title-head">Elegant Routing</a></h4>
+                        <p class="">Beautiful and quick routing system built in.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
                     <div class="area-box">
-                        <i class="fas fa-comments-dollar"></i>
-                        <h4><a href="about.html" class="title-head">Pay Online in Seconds</a></h4>
-                        <p class="">Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
-                            sed dolor et amet.</p>
+                        <i class="fa fa-fighter-jet"></i>
+                        <h4><a href="about.html" class="title-head">Quick Development</a></h4>
+                        <p class="">Create faster and save extra files and lines of code.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
                     <div class="area-box">
-                        <i class="fas fa-thumbs-up"></i>
-                        <h4><a href="about.html" class="title-head">Satisfaction Guarantee</a></h4>
-                        <p class="">Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
-                            sed dolor et amet.</p>
+                        <i class="fa fa-paper-plane"></i>
+                        <h4><a href="about.html" class="title-head">Lightweight</a></h4>
+                        <p class="">Small scale file directory and lightweight file size.</p>
                     </div>
                 </div>
             </div>
@@ -127,25 +137,23 @@
                 <div class="col-lg-6 about-2-secs-right mb-lg-0 mb-5">
                     <div class="image-box inverse position-relative">
                         <div class="image-box__static">
-                            <img src="assets/images/about1.jpg" alt="" width="364" height="459">
+                            <img src="assets/images/file-directory.png" alt="" width="364" height="459">
                         </div>
                         <div class="image-box__float">
-                            <img src="assets/images/about2.jpg" alt="" width="364" height="459">
+                            <img src="assets/images/docs.png" alt="" width="364" height="459" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 about-2-secs-left ps-lg-5 mt-lg-4 mt-5">
-                    <h5 class="sub-title">More than 25 Years of Experience</h5>
-                    <h3 class="title-style">We are passionate about Laundry</h3>
-                    <p class="mt-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                        praesentium voluptatum
-                        deleniti similique sunt in culpa qui officia</p>
+                    <h5 class="sub-title">More than 300+ downloads</h5>
+                    <h3 class="title-style">The Documentation</h3>
+                    <p class="mt-4">First step as a web developer or a boost as you take your expertise to the next level, we recommend all to read the documentation.</p>
                     <ul class="mt-4 list-style-lis">
-                        <li><i class="fas fa-check-circle"></i>100% Customer Satisfaction</li>
-                        <li><i class="fas fa-check-circle"></i>Free Collection & Delivery</li>
-                        <li><i class="fas fa-check-circle"></i>Affordable Prices</li>
+                        <li><i class="fas fa-check-circle"></i>Installation guide</li>
+                        <li><i class="fas fa-check-circle"></i>Directory tree</li>
+                        <li><i class="fas fa-check-circle"></i>Open source</li>
                     </ul>
-                    <a href="about.html" class="btn btn-style mt-5">Discover More</a>
+                    <a href="https://sprnva.gitbook.io/sprnva-docs/" class="btn btn-style mt-5">Read More</a>
                 </div>
             </div>
         </div>
@@ -157,45 +165,42 @@
         <div class="container pb-lg-5 pb-md-4 pb-2">
             <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
                 <h5 class="sub-title">What We Offer</h5>
-                <h3 class="title-style">Our Services</h3>
+                <h3 class="title-style">Our Features</h3>
             </div>
             <div class="row text-center justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="servicecard-single">
                         <div class="grids5-info position-relative">
-                            <img src="assets/images/service1.jpg" alt="" class="img-fluid" />
+                            <img src="assets/images/migration.png" alt="" class="img-fluid" style="height: 150px;"/>
                         </div>
                         <div class="content-main-top">
-                            <h4><a href="services.html">Laundry Services</a></h4>
-                            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua labore et dolore magna.
-                            </p>
-                            <a class="btn btn-style mt-4" href="services.html">Read More</a>
+                            <h4><a href="services.html">Simple Migration</a></h4>
+                            <p>simple database migration (sync database development for everyone)</p>
+                            <!-- <a class="btn btn-style mt-4" href="services.html">Read More</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
                     <div class="servicecard-single">
                         <div class="grids5-info position-relative">
-                            <img src="assets/images/service2.jpg" alt="" class="img-fluid" />
+                            <img src="assets/images/csrf.png" alt="" class="img-fluid" style="height: 150px;"/>
                         </div>
                         <div class="content-main-top">
-                            <h4><a href="services.html">Dry Cleaning</a></h4>
-                            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua labore et dolore magna.
-                            </p>
-                            <a class="btn btn-style mt-4" href="services.html">Read More</a>
+                            <h4><a href="services.html">Csrf protection</a></h4>
+                            <p>Secure your request by adding a csrf helper function.</p>
+                            <!-- <a class="btn btn-style mt-4" href="services.html">Read More</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
                     <div class="servicecard-single">
                         <div class="grids5-info position-relative">
-                            <img src="assets/images/service3.jpg" alt="" class="img-fluid" />
+                            <img src="assets/images/mvc.png" alt="" class="img-fluid" style="height: 150px;"/>
                         </div>
                         <div class="content-main-top">
-                            <h4><a href="services.html">Steam Iron</a></h4>
-                            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua labore et dolore magna.
-                            </p>
-                            <a class="btn btn-style mt-4" href="services.html">Read More</a>
+                            <h4><a href="services.html">Inspired in MVC approach</a></h4>
+                            <p>Inspired in Model, View, Controller approach structure.</p>
+                            <!-- <a class="btn btn-style mt-4" href="services.html">Read More</a> -->
                         </div>
                     </div>
                 </div>
@@ -208,21 +213,19 @@
     <section class="home-block-3 py-xl-4 py-2">
         <div class="row m-0 align-items-center">
             <div class="col-lg-6 left-w3l-img p-0">
-                <img src="assets/images/about3.jpg" alt="card-image" class="img-fluid">
+                <img src="assets/images/intro.png" alt="card-image" class="img-fluid">
             </div>
             <div class="col-lg-6 right-w3l-img mt-lg-0 mt-sm-4 mt-5">
                 <div class="p-xl-5 p-sm-4 mx-xl-3">
-                    <h5 class="sub-title">Get 30% Discount</h5>
-                    <h3 class="title-style">Book Our Laundry Services</h3>
-                    <p class="sub-title mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                        ultrices inligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetures
-                        adipisicing elit.</p>
+                    <h5 class="sub-title">Open Source</h5>
+                    <h3 class="title-style">Sprnva is beautiful</h3>
+                    <p class="sub-title mt-3">We'll help you take your first steps as a web developer or give you a boost as you take your expertise to the next level. We can't wait to see what you build.</p>
                     <div class="row mt-5 pt-xl-4">
                         <div class="col-sm-6 icon-style">
                             <i class="fas fa-tshirt"></i>
                             <div class="ab-detail">
                                 <h4 class="title-head mb-sm-3 mb-2"><a href="services.html">Clean Result</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit.
+                                <p>You can outfit your application using diffrent templates of your choice.
                                 </p>
                             </div>
                         </div>
@@ -230,7 +233,7 @@
                             <i class="fas fa-shipping-fast"></i>
                             <div class="ab-detail">
                                 <h4 class="title-head mb-sm-3 mb-2"><a href="services.html">Fast Delivery</a></h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit.
+                                <p>Built in login and registration and fully customizable.
                                 </p>
                             </div>
                         </div>
@@ -242,7 +245,7 @@
     <!-- //image with content section -->
 
     <!-- works section -->
-    <section class="w3l-feature-8 py-5">
+    <!-- <section class="w3l-feature-8 py-5">
         <div class="container py-md-5 py-4">
             <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
                 <h5 class="sub-title">Pickup & Deliver</h5>
@@ -299,11 +302,11 @@
                 <a href="services.html" class="btn btn-style mt-5">Book Our Services Now</a>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- //works section -->
 
     <!-- blog section -->
-    <div class="blog-bg-sec pb-5 pt-4">
+    <!-- <div class="blog-bg-sec pb-5 pt-4">
         <div class="container pb-lg-5 pb-md-4 pb-2">
             <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
                 <h5 class="sub-title">News & Articles</h5>
@@ -366,11 +369,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- //blog section -->
 
     <!-- call section -->
-    <section class="w3l-call-to-action-6 py-4">
+    <!-- <section class="w3l-call-to-action-6 py-4">
         <div class="container py-md-5 py-sm-4 py-4">
             <div class="d-lg-flex align-items-center justify-content-between">
                 <div class="col-lg-7 left-content-call pe-lg-2">
@@ -388,7 +391,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- //call section -->
 
     <!-- footer -->
@@ -399,8 +402,9 @@
                     <div class="footer-list-cont d-flex align-items-center justify-content-between mb-5">
                         <h6 class="foot-sub-title">Contact Us</h6>
                         <div class="main-social-footer-29">
-                            <a href="#facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#twitter" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/optionsevensystems" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
                             <a href="#instagram" class="instagram"><i class="fab fa-instagram"></i></a>
                             <a href="#linkedin" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
                         </div>
@@ -409,46 +413,44 @@
                 <div class="row footer-top-29 pt-lg-5 pt-sm-4">
                     <div class="col-lg-3 col-sm-6">
                         <div class="address-grid">
-                            <h5>10001 Alleghany st, 5th Avenue, 235 Terry, <br> London.</h5>
-                            <h5 class="mt-sm-5 mt-4">Everyday: <span> 7 AM - 8 PM</span></h5>
+                            <h5>Bacolod City Negros Occidetal, <br> Philippines. 6100</h5>
+                            <!-- <h5 class="mt-sm-5 mt-4">Everyday: <span> 7 AM - 8 PM</span></h5> -->
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
-                        <div class="address-grid">
+                        <!-- <div class="address-grid">
                             <h5 class="top-bold">Phone</h5>
                             <h5 class="phone-number-text mt-2"><a href="tel:+1(21) 112 7368">+1(21) 112 7368</a></h5>
-                        </div>
-                        <div class="address-grid mt-sm-5 mt-4">
+                        </div> -->
+                        <div class="address-grid mt-sm-0 mt-0">
                             <h5 class="top-bold">E-mail</h5>
-                            <h5 class="email-cont-text mt-1"> <a href="mailto:photogenic@mail.com"
-                                    class="mail">photogenic@mail.com</a></h5>
+                            <h5 class="email-cont-text mt-1"> <a href="mailto:jguapin21@gmail.com"
+                                    class="mail">jguapin21@gmail.com</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-5 footer-list-menu ps-lg-0 mt-lg-0 mt-sm-5 mt-4">
                         <div class="address-grid">
                             <h5 class="mb-sm-4 mb-3 pb-lg-2 top-bold">Support Links</h5>
                             <ul>
-                                <li><a href="#privacy">Privacy Policy</a></li>
-                                <li><a href="#terms"> Terms of Service</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                                <li><a href="#support"> Support</a></li>
+                                <li><a href="#privacy">Our Team</a></li>
+                                <li><a href="https://sprnva.gitbook.io/sprnva-docs/"> Getting Started</a></li>
+                                <li><a href="https://sprnva.gitbook.io/sprnva-docs/migration">Migration</a></li>
+                                <li><a href="https://sprnva.gitbook.io/sprnva-docs/themes-and-templates"> Templates</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="address-grid col-lg-4 col-md-6 col-sm-7 mt-lg-0 mt-sm-5 mt-4 w3l-footer-16-main">
-                        <h5 class="top-bold">Subscribe Here</h5>
-                        <form action="#" class="subscribe d-flex mt-sm-4 mt-3 pt-lg-2 mb-4" method="post">
+                        <h5 class="top-bold">Thank you for your support!</h5>
+                        <!-- <form action="#" class="subscribe d-flex mt-sm-4 mt-3 pt-lg-2 mb-4" method="post">
                             <input type="email" name="email" placeholder="Email Address" required="">
                             <button><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
-                        </form>
-                        <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+                        </form> -->
+                        <p>Freeing you to create without sweating the small things. We deliver the blast to you.</p>
                     </div>
                 </div>
                 <!-- copyright -->
                 <div class="w3l-copyright text-center mt-lg-5 mt-4 pt-sm-4 pt-3">
-                    <p class="copy-footer-29">© 2022 Laundries. All rights reserved. Design by <a
-                            href="https://w3layouts.com/" target="_blank">
-                            W3layouts</a></p>
+                    <p class="copy-footer-29">Sprnva is a Trademark of Judywen Guapin. <br> ©2023 Sprnva. All rights reserved.</p>
                 </div>
             </div>
         </div>
